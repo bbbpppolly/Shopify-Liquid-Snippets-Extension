@@ -1,0 +1,28 @@
+{
+    "name": "shopify-liquid",
+    "displayName": "Shopify Liquid",
+    "description": "Create objects, filters, tags, etc. Fast!",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/shopify.json"
+            },
+            {
+                "language": "liquid",
+                "path": "./snippets/shopify.json"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/shopify.json"
+            }
+        ]
+    }
+}
